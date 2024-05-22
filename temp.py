@@ -36,9 +36,9 @@ elif scale_choice == 2:  # If the user chooses Fahrenheit
         # User input for the temperature in Fahrenheit. Used float so we can divide it.
         input_temp = float(input())  
         # Conversion formula from Fahrenheit to Celsius
-        celsius = (input_temp2 - 32) * 5/9  
+        celsius = (input_temp - 32) * 5/9  
         # Conversion formula from Fahrenheit to Kelvin
-        kelvin = (input_temp2 - 32) * 5/9 + 273.15  
+        kelvin = (input_temp - 32) * 5/9 + 273.15  
         # Output of the temperature in Celsius
         print("The temperature in Celsius is " + str(celsius) + ",this was found by using the formula of 'C = (F-32) * 5/9'")
          # Output of the temperature in Kelvin 
@@ -62,5 +62,7 @@ elif scale_choice == 3:
 # If the user inputs an invalid scale
 else:  
         print("Invalid scale! Please choose 1 for Celsius, 2 for Fahrenheit, 3 for Kelvin.")
-        # Output of the invalid scale message
-        print("Please restart the program and try again.")  
+        # Output of the invalid scale message 
+
+# End of the program message
+then = print(" \nHave a great day! Restart the program to convert another temperature.")
