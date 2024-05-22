@@ -61,5 +61,5 @@ elif scale_choice == 3:
 # If the user inputs an invalid scale
 else:  
         print("Invalid scale! Please choose 1 for Celsius, 2 for Fahrenheit, 3 for Kelvin.")
-        # Output of the invalid scale messaged
+        # Output of the invalid scale message
         print("Please restart the program and try again.")  
